@@ -25,7 +25,6 @@ const start = async () => {
   app.set("mongo_user");
 
   const connectionDb = await mongoose.connect(
-    // "mongodb+srv://rakeshkushwahadev_db_user:mthNQnNaABkaT5fK@axyn.xk3nxsv.mongodb.net/"
     process.env.MONGO_URI
   );
 
